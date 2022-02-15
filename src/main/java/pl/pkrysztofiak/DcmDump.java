@@ -27,7 +27,7 @@ import org.dcm4che3.util.TagUtils;
 public class DcmDump implements DicomInputHandler {
 
     private static ResourceBundle rb =
-            ResourceBundle.getBundle("org.dcm4che3.tool.dcmdump.messages");
+            ResourceBundle.getBundle("pl.pkrysztofiak.messages");
 
     /** default number of characters per line */
     private static final int DEFAULT_WIDTH = 78;
